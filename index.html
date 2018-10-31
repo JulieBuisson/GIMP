@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diaporama Bootstrap et images GIMP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Exos GIMP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Procédures élémentaires</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Images</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">GIF</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row d-flex">
+            <div class="colb col-xl-9 order-xl-1 order-md-1 order-sm-2 order-2">
+                <h2>Caroussel</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/enfant1.png" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Je suis en haut du tobogan !</h5>
+                                <p>Prêt ? Partez !</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/enfant2.png" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Attention...</h5>
+                                <p>Je glisse !  </p>
+                              </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/enfant3.png" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Et maintenant...</h5>
+                                <p>sur le tracteur !</p>
+                              </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/enfant4.png" alt="Fourth slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Là j'ai pris de la hauteur</h5>
+                                <p>Je suis sur une chaise !</p>
+                              </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/enfant5.png" alt="Five slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Regardez !</h5>
+                                <p>Mon beau camion</p>
+                              </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/enfant6.png" alt="Six slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>J'ai un super bac à sable !</h5>
+                                <p>Je m'amuse beaucoup !</p>
+                              </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/enfant.png" alt="Seven slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Je me suis dédoublé !</h5>
+                                <p>Je suis partout !!</p>
+                              </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Suivant</span>
+                    </a>
+                </div>
+            </div>
+            <div class="colc col-xl-3 order-xl-2 order-md-2 order-sm-1 order-1">
+                <h2>Lorem</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam incidunt provident similique.
+                    Molestias earum aut nulla iste facilis exercitationem adipisci suscipit ea non sunt, repellat ab
+                    atque rerum architecto saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                    distinctio quaerat, ab corrupti ratione quae, fuga voluptatem tenetur inventore rerum nobis
+                    mollitia similique animi quo? Quia aliquam molestiae commodi iusto? Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Explicabo dolorum molestiae laudantium et nemo voluptate voluptatem
+                    non hic? Enim illum exercitationem facere nisi assumenda expedita dolore non ipsa, voluptatem
+                    veniam!</p>
+            </div>
+        </div>
+        <br>
+        <hr class="hr">
+        <br>
+        <div class="row">
+            <div class="cold col-xl-4">
+                <h2>1 of 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolorem vel aperiam doloremque, quas
+                    esse similique, deleniti at rerum tenetur, asperiores quae doloribus nulla quos obcaecati animi
+                    mollitia neque! Voluptates.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rem dicta atque, culpa minima, quo at
+                    similique harum aliquam molestiae repellat ipsam aliquid dignissimos cupiditate est autem fuga
+                    iusto quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni assumenda unde enim
+                    tempora, vel laborum harum sequi reprehenderit quibusdam porro suscipit voluptates blanditiis
+                    repellendus, obcaecati corporis. Officiis, aut provident. At! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Eius quod repudiandae cupiditate. Inventore at maiores nulla dicta
+                    voluptatum quaerat quibusdam nostrum voluptatem quod, minima itaque, a nisi fugiat quos aperiam.</p>
+            </div>
+            <div class="cole col-xl-4">
+                <h2>2 of 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eos doloribus velit quis magnam
+                    quia consequuntur quisquam eum, eveniet, modi soluta aut, nulla tenetur fugiat veniam consequatur
+                    blanditiis architecto vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eaque
+                    architecto, blanditiis hic eum facilis autem quidem atque reprehenderit enim omnis eveniet corrupti
+                    neque doloremque repellat dolorum voluptatem dolores consectetur. Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Hic odio voluptate, consectetur officia id incidunt a facilis
+                    architecto inventore. Nam eius saepe facilis nemo blanditiis rem facere enim alias hic. Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus optio iste adipisci. Ex nostrum
+                    magnam maxime deleniti mollitia esse, consequuntur in, consectetur numquam, voluptatem consequatur
+                    tempora tempore asperiores ullam dolorem.</p>
+            </div>
+            <div class="colf col-xl-4">
+                <h2>3 of 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime numquam non cum eveniet
+                    deserunt laudantium! Ex, illo quam tempore sunt, saepe et voluptatibus nobis, suscipit ratione
+                    perspiciatis modi eligendi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+                    temporibus neque laudantium, optio alias iure sint eligendi distinctio nulla id! Alias eveniet
+                    molestiae nostrum, dignissimos cupiditate et impedit architecto veniam. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Exercitationem temporibus aut distinctio ea sint in maxime, soluta,
+                    excepturi quis repellendus laboriosam recusandae dignissimos eaque quos consequatur neque, natus
+                    quidem. Nesciunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae labore unde
+                    laudantium iure corporis aut, iste cupiditate itaque quos magnam neque totam eum quisquam,
+                    reiciendis vero aspernatur, amet consequuntur! Nostrum.</p>
+            </div>
+        </div>
+        <br>
+        <hr class="hr">
+        <br>
+    </div>
+
+    <div class="card text-center" style="background-color:lightskyblue">
+        <div class="card-header">
+            My Footer
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Fais en seulement un après-midi</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="card-footer text-muted">
+            #DABEST
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body{
+    background: lightcyan;
+}
+
+.colb{
+    background-color: lightgoldenrodyellow;
+    padding-bottom: 15px;
+}
+
+.colc{
+    background-color: papayawhip;
+}
+
+.cold{
+    background-color: lightseagreen;
+}
+
+.cole{
+    background-color: lightcoral;
+}
+
+.colf{
+    background-color: lightgreen;
+}
+
+hr{ 
+    height: 30px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+  } 
+  hr:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
